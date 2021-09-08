@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script src="./jquery-3.6.0.min.js "></script>
+        <script>
+            function h2d(){
+                var MyTime = new Date;
+                var h = MyTime.getHours()+MyTime.getMinutes()/60;
+                var h2 = h > 12?(h-12):h;
+                return 30*h2;
+            }
+            function rotate(){
+                        $("#hours2degrees").text("rotate("+(new Date).getSeconds()+"deg)");
+                        $("#strelka").css("transform", "rotate("+(new Date).getSeconds()*6+"deg)");
+                    }
+            $().ready(function() {
+                let tmr = setInterval(rotate, 1000);
+            });
+            
+        </script>
+        <style>
+            #strelka{
+                position: absolute;
+                height: 200px;
+                left: 38%;
+                transform-origin: bottom center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="clock">
+            <span id="hours"></span>:<span id="minutes"></span>
+            <hr />
+            <span id="hours2"></span>
+            <hr />
+            <span id="hours2degrees"></span>
+        </h1>
+        <img id="strelka" src="./strelka.png" />
+    </body>
+</html>
