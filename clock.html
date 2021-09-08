@@ -11,31 +11,25 @@
                 return 30*h2;
             }
             function rotate(){
-                        $("#hours2degrees").text("rotate("+(new Date).getSeconds()+"deg)");
-                        $("#strelka").css("transform", "rotate("+(new Date).getSeconds()*6+"deg)");
+                        $("#hours2degrees").text("rotate("+(new Date).getHours()+")");
+                        $("#strelka").css("transform", "rotate("+h2d()+"deg)");
                     }
             $().ready(function() {
-                let tmr = setInterval(rotate, 1000);
+                $("#strelka").css("transform", "rotate("+h2d()+"deg)");
+                let tmr = setInterval(rotate, 20000);
             });
             
         </script>
         <style>
             #strelka{
                 position: absolute;
-                height: 200px;
+                height: 250px;
                 left: 38%;
                 transform-origin: bottom center;
             }
         </style>
     </head>
     <body>
-        <h1 id="clock">
-            <span id="hours"></span>:<span id="minutes"></span>
-            <hr />
-            <span id="hours2"></span>
-            <hr />
-            <span id="hours2degrees"></span>
-        </h1>
         <img id="strelka" src="./strelka.png" />
     </body>
 </html>
