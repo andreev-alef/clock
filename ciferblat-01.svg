@@ -1,10 +1,14 @@
 <svg version="1.1" baseProfile="full" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
-    <path class="5min" d="M690,360 l20,0"
-          stroke="black"
-          stroke-width="2px"
-          transform='rotate(0)'  />
+    <path class="60min"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(0)'
+            stroke-linecap="round"            />
     
-    <circle cx="360" cy="360" r="350" fill="transparent" stroke="#000000" stroke-width="5px" stroke-opacity="0.8" />
-    <circle cx="360" cy="360" r="320" fill="transparent" stroke="#000000" stroke-width="3px" stroke-opacity="0.8" />
-    <circle cx="360" cy="360" r="5" fill="#000000" stroke="#000000" stroke-width="0px" stroke-opacity="1" />
+    <g>
+        <circle cx="400" cy="400" r="350" fill="transparent" stroke="#000000" stroke-width="5px" stroke-opacity="1" />
+        <circle cx="400" cy="400" r="320" fill="transparent" stroke="#000000" stroke-width="3px" stroke-opacity="1" />
+        <circle cx="400" cy="400" r="5" fill="#000000" stroke="#000000" stroke-width="0px" stroke-opacity="1" />
+    </g>
 </svg>
