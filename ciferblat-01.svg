@@ -1,11 +1,344 @@
 <svg version="1.1" baseProfile="full" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
-    <path class="60min"
+<g class="hours">
+    <path class="hour" id="00" 
             d="M400,400  m0,-345 l0,30"
             stroke="black"
             stroke-width="7px"
             transform='rotate(0)'
-            stroke-linecap="round"            />
-    
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="1h" id="01" 
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(30)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="1h" id="02" 
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(60)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="03"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(90)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="04"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(120)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="05"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(150)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="06"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(180)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="hour" id="07"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(210)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="08"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(240)'
+            transform-origin="400 400"
+            stroke-linecap="round" />    
+    <path class="hour" id="09"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(270)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="10"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(300)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+    <path class="hour" id="11"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="7px"
+            transform='rotate(330)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+</g>
+<g class="minutes">
+        <path class="10min" id="10m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(5)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="20m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(10)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="30m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(15)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="40m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(20)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="50m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(25)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="70m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(35)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="80m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(40)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="90m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(45)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="100m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(50)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="110m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(55)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="130m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(65)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="140m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(70)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="150m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(75)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="160m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(80)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="170m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(85)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="190m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(95)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="200m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(100)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="210m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(105)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="220m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(110)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="230m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(115)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="250m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(125)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="260m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(130)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="280m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(135)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="290m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(140)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="300m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(145)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="310m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(155)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="320m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(160)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="330m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(165)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="340m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(170)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="350m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(175)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="370m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(185)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="380m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(190)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="390m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(195)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="400m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(200)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="410m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(205)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="430m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(215)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+</g>
     <g>
         <circle cx="400" cy="400" r="350" fill="transparent" stroke="#000000" stroke-width="5px" stroke-opacity="1" />
         <circle cx="400" cy="400" r="320" fill="transparent" stroke="#000000" stroke-width="3px" stroke-opacity="1" />
