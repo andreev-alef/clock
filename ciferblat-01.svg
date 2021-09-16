@@ -419,21 +419,21 @@
             d="M400,400  m0,-345 l0,30"
             stroke="black"
             stroke-width="3px"
-            transform='rotate(280)'
+            transform='rotate(285)'
             transform-origin="400 400"
             stroke-linecap="round" />
         <path class="10min" id="580m"
             d="M400,400  m0,-345 l0,30"
             stroke="black"
             stroke-width="3px"
-            transform='rotate(285)'
+            transform='rotate(290)'
             transform-origin="400 400"
             stroke-linecap="round" />
         <path class="10min" id="590m"
             d="M400,400  m0,-345 l0,30"
             stroke="black"
             stroke-width="3px"
-            transform='rotate(290)'
+            transform='rotate(295)'
             transform-origin="400 400"
             stroke-linecap="round" />
         <path class="10min" id="610m"
@@ -457,18 +457,25 @@
             transform='rotate(315)'
             transform-origin="400 400"
             stroke-linecap="round" />
-        <path class="10min" id="650m"
+        <path class="10min" id="640m"
             d="M400,400  m0,-345 l0,30"
             stroke="black"
             stroke-width="3px"
             transform='rotate(320)'
             transform-origin="400 400"
             stroke-linecap="round" />
+        <path class="10min" id="650m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(325)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
         <path class="10min" id="670m"
             d="M400,400  m0,-345 l0,30"
             stroke="black"
             stroke-width="3px"
-            transform='rotate(330)'
+            transform='rotate(335)'
             transform-origin="400 400"
             stroke-linecap="round" />
         <path class="10min" id="690m"
