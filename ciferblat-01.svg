@@ -422,6 +422,83 @@
             transform='rotate(280)'
             transform-origin="400 400"
             stroke-linecap="round" />
+        <path class="10min" id="580m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(285)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="590m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(290)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="610m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(305)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="620m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(310)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="630m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(315)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="650m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(320)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="670m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(330)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="690m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(340)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="700m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(345)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="710m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(350)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
+        <path class="10min" id="710m"
+            d="M400,400  m0,-345 l0,30"
+            stroke="black"
+            stroke-width="3px"
+            transform='rotate(355)'
+            transform-origin="400 400"
+            stroke-linecap="round" />
 </g>
     <g>
         <circle cx="400" cy="400" r="350" fill="transparent" stroke="#000000" stroke-width="5px" stroke-opacity="1" />
