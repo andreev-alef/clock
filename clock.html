@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="./jquery-3.6.0.min.js "></script>
+        <script>
+            let interval = 20000;
+//            let interval = 1000;
+            function h2d(){
+                var MyTime = new Date;
+                var h = MyTime.getHours()+MyTime.getMinutes()/60;
+                var h2 = h > 12?(h-12):h;
+                return 30*h2;
+            }
+            function sec2deg(){
+                var MyTime = new Date;
+                var s = MyTime.getSeconds();
+                return 6*s;
+            }
+            function rotate(){
+                        $("#hours2degrees").text("rotate("+(new Date).getHours()+")");
+                        $("#strelka").css("transform", "rotate("+h2d()+"deg)");
+                        $("title").text((new Date).getHours()+":"+((new Date).getMinutes()<10?("0"+(new Date).getMinutes()):(new Date).getMinutes()))
+                        //$("#strelka").css("transform", "rotate("+sec2deg()+"deg)");
+                    }
+            $().ready(function() {
+                $("title").text((new Date).getHours()+":"+((new Date).getMinutes()<10?("0"+(new Date).getMinutes()):(new Date).getMinutes()))
+                $("#strelka").css("transform", "rotate("+h2d()+"deg)");
+                let tmr = setInterval(rotate, interval);
+            });
+            
+        </script>
+        <style>
+            #strelka{
+                position: absolute;
+                height: 240px;
+                left: 665px;
+                top: 71px;
+                transform-origin: bottom center;
+                transform-origin: 50% 227px;
+            }
+            #ciferblat{
+                position: absolute;
+                height: 520px;
+                left: 418px;
+                top: 40px;
+                transform-origin: bottom center;
+
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <img id="ciferblat" src="./ciferblat.png" /> -->
+        <img id="ciferblat" src="./ciferblat-02.png" />
+        <img id="strelka" src="./strelka.png" />
+    </body>
+</html>
