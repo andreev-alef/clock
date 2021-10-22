@@ -7,31 +7,31 @@
         <script>
             let interval = 20000;
 //            let interval = 1000;
-            function h2d(hOffset=0){
+            function h2d(hOffset = 0) {
                 var MyTime = new Date;
-                var h = MyTime.getHours()+hOffset +MyTime.getMinutes()/60;
-                var h2 = h > 12?(h-12):h;
-                return 30*h2;
+                var h = MyTime.getHours() + hOffset + MyTime.getMinutes() / 60;
+                var h2 = h > 12 ? (h - 12) : h;
+                return 30 * h2;
             }
-            function sec2deg(){
+            function sec2deg() {
                 var MyTime = new Date;
                 var s = MyTime.getSeconds();
-                return 6*s;
+                return 6 * s;
             }
-            function rotate(){
-                        $("#hours2degrees").text("rotate("+(new Date).getHours()+")");
-                        $("#strelka").css("transform", "rotate("+h2d()+"deg)");
-                        $("#strelka-red").css("transform", "rotate("+h2d(4)+"deg)");
-                        $("title").text((new Date).getHours()+":"+((new Date).getMinutes()<10?("0"+(new Date).getMinutes()):(new Date).getMinutes()))
-                        //$("#strelka").css("transform", "rotate("+sec2deg()+"deg)");
-                    }
-            $().ready(function() {
-                $("title").text((new Date).getHours()+":"+((new Date).getMinutes()<10?("0"+(new Date).getMinutes()):(new Date).getMinutes()))
-                $("#strelka").css("transform", "rotate("+h2d()+"deg)");
-                $("#strelka-red").css("transform", "rotate("+h2d(4)+"deg)");
+            function rotate() {
+                $("#hours2degrees").text("rotate(" + (new Date).getHours() + ")");
+                $("#strelka").css("transform", "rotate(" + h2d() + "deg)");
+                $("#strelka-red").css("transform", "rotate(" + h2d(4) + "deg)");
+                $("title").text((new Date).getHours() + ":" + ((new Date).getMinutes() < 10 ? ("0" + (new Date).getMinutes()) : (new Date).getMinutes()))
+                //$("#strelka").css("transform", "rotate("+sec2deg()+"deg)");
+            }
+            $().ready(function () {
+                $("title").text((new Date).getHours() + ":" + ((new Date).getMinutes() < 10 ? ("0" + (new Date).getMinutes()) : (new Date).getMinutes()))
+                $("#strelka").css("transform", "rotate(" + h2d() + "deg)");
+                $("#strelka-red").css("transform", "rotate(" + h2d(4) + "deg)");
                 let tmr = setInterval(rotate, interval);
             });
-            
+
         </script>
         <style>
             #strelka, #strelka-red{
@@ -42,21 +42,30 @@
                 transform-origin: bottom center;
                 transform-origin: 50% 227px;
             }
-            
+
             #ciferblat{
                 position: absolute;
                 height: 520px;
                 left: 418px;
                 top: 40px;
                 transform-origin: bottom center;
-
+            }
+            #ciferblat-min{
+                position: absolute;
+                height: 300px;
+                left: 1000px;
+                top: 40px;
+                transform-origin: bottom center;
             }
         </style>
     </head>
     <body>
-        <!-- <img id="ciferblat" src="./ciferblat.png" /> -->
-        <img id="ciferblat" src="./ciferblat-02.png" />
-        <img id="strelka" src="./strelka.png" />
-        <img id="strelka-red" src="./strelka-red.png" />
+        <div class="main">
+            <img id="ciferblat" src="./ciferblat-02.png" />
+            <img id="strelka" src="./strelka.png" />
+            <img id="strelka-red" src="./strelka-red.png" />
+            <img id="ciferblat-min" src="./ciferblat-min.png" />
+
+        </div>
     </body>
 </html>
