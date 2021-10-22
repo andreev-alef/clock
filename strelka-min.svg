@@ -24,9 +24,9 @@
      inkscape:document-units="mm"
      showgrid="false"
      width="420mm"
-     inkscape:zoom="0.15099958"
-     inkscape:cx="841.06195"
-     inkscape:cy="1003.3141"
+     inkscape:zoom="0.21354565"
+     inkscape:cx="669.64604"
+     inkscape:cy="199.02068"
      inkscape:window-width="1600"
      inkscape:window-height="837"
      inkscape:window-x="-8"
@@ -34,9 +34,77 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2" />
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="TriangleInL"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleInL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.8)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path1263" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(1.1) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path1148" />
+    </marker>
+  </defs>
   <g
      inkscape:label="Слой 1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     id="layer1">
+    <g
+       id="g2785">
+      <g
+         id="g2650"
+         transform="matrix(0,2.3522857,-1.0103126,0,364.63148,-201.15179)">
+        <path
+           sodipodi:type="star"
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:18.9048;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1"
+           id="path2020"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="700.08447"
+           sodipodi:cy="26.926327"
+           sodipodi:r1="136.65248"
+           sodipodi:r2="68.326241"
+           sodipodi:arg1="1.5707963"
+           sodipodi:arg2="2.6179939"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           transform="matrix(0,0.07420509,-0.06881377,0,98.189697,101.10327)"
+           inkscape:transform-center-x="0.89796219"
+           inkscape:transform-center-y="-5.581165e-06"
+           d="M 700.08448,163.57881 640.91221,61.089446 581.73995,-41.399911 l 118.34452,-3e-6 118.34452,-3e-6 -59.17226,102.489365 z" />
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:19.3574;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1"
+           id="rect2556"
+           width="116.75179"
+           height="0.64261723"
+           x="111.26711"
+           y="152.7318" />
+      </g>
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:9.8603;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:6;stroke-dasharray:none;stroke-opacity:1"
+         id="path2687"
+         cx="210"
+         cy="361.81134"
+         r="15.069852" />
+    </g>
+  </g>
 </svg>
